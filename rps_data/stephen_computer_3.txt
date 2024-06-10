@@ -1,5 +1,1 @@
-sp
-rs
-ss
-pr
-rp
+rr

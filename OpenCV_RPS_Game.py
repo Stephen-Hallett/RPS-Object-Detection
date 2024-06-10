@@ -191,7 +191,7 @@ colours = [(255, 255, 0), (0, 255, 0), (0, 255, 255)]
 
 symbols = ['r','p','s']
 
-net = cv.dnn.readNet("objectdetection/yolov5/runs/train/yolov5s_results_batch_sz64_augmented4/weights/best.onnx")
+net = cv.dnn.readNet("objectdetection/yolov5s_results_batch_sz64_augmented4/weights/best.onnx")
 rps = RPS(input("What is your name? "))
 
 long = {'r': 'Rock',
